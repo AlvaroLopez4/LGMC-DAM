@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripction"  content="Esto es el ejercicio 7 del BO.">
+    <meta name="keywords" content="Ejemplo, Plantilla, HTML, etc">
+    <meta name="author" content="Alvaro Lopez">
+    <meta name="application-name" content="BOejercicio7.html">
+    <meta name="generator" content="VScode">
+    <link rel="icon" href="C:\Users\alvarlopez99\Documents\VS DAM\LGMC-DAM\assets\icons\toro.ico">
+    <title>EJERCICIO 7</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+    <div class="campo">
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+    </div>
+
+    <div class="campo">
+    <label for="apellidos">Apellidos</label><br>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required />
+    </div>
+
+    <div class="campo">
+    <label for="dni">DNI</label><br>
+    <input type="text" id="dni" name="dni" placeholder="DNI" required />
+    </div>
+
+    <div class="campo">
+    <label for="password">Contraseña</label><br>
+    <input type="password" id="password" name="password" placeholder="Contraseña" required />
+    </div>
+
+    <div class="campo">
+    <span style="display:block; font-weight:600; margin-bottom:0.35rem;">Sexo</span>
+    <label>
+        <input type="radio" name="sexo" value="Hombre" checked />
+        Hombre
+    </label>
+    <label style="margin-left: 1rem;">
+        <input type="radio" name="sexo" value="Mujer" />
+        Mujer
+    </label>
+    </div>
+
+    <div class="campo">
+    <label for="foto">Incluir mi foto</label>
+    <input type="file" id="foto" name="foto" accept="image/*" />
+    </div>
+
+    <div class="campo">
+    <label>
+        <input type="checkbox" name="suscripcion" checked />
+        Suscribirme al boletín de novedades
+    </label>
+    </div>
+
+    <div class="acciones">
+    <button type="reset">Borrar los datos introducidos</button>
+    <button type="submit">Guardar cambios</button>
+    </div>
+    </form>
+</body>
+</html>
